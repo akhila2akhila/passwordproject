@@ -16,6 +16,7 @@
 		705E01F927A2F25D0025E6A9 /* passwordprotectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E01F827A2F25D0025E6A9 /* passwordprotectorTests.swift */; };
 		705E020327A2F25D0025E6A9 /* passwordprotectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E020227A2F25D0025E6A9 /* passwordprotectorUITests.swift */; };
 		705E020527A2F25D0025E6A9 /* passwordprotectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E020427A2F25D0025E6A9 /* passwordprotectorUITestsLaunchTests.swift */; };
+		7099C37327AD66D400840267 /* Controlstatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C37227AD66D400840267 /* Controlstatements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		705E01FE27A2F25D0025E6A9 /* passwordprotectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwordprotectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		705E020227A2F25D0025E6A9 /* passwordprotectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordprotectorUITests.swift; sourceTree = "<group>"; };
 		705E020427A2F25D0025E6A9 /* passwordprotectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordprotectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7099C37227AD66D400840267 /* Controlstatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controlstatements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				705E01E127A2F2580025E6A9 /* AppDelegate.swift */,
 				705E01E327A2F2580025E6A9 /* SceneDelegate.swift */,
 				705E01E527A2F2580025E6A9 /* ViewController.swift */,
+				7099C37227AD66D400840267 /* Controlstatements.swift */,
 				705E01E727A2F2580025E6A9 /* Main.storyboard */,
 				705E01EA27A2F25C0025E6A9 /* Assets.xcassets */,
 				705E01EC27A2F25C0025E6A9 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				705E01E627A2F2580025E6A9 /* ViewController.swift in Sources */,
 				705E01E227A2F2580025E6A9 /* AppDelegate.swift in Sources */,
 				705E01E427A2F2580025E6A9 /* SceneDelegate.swift in Sources */,
+				7099C37327AD66D400840267 /* Controlstatements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
