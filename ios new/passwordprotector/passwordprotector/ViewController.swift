@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var errorDescriptionLabel: UILabel!
     var password = "akhila"
     var a = 5
     var b = 8
@@ -34,7 +35,12 @@ class ViewController: UIViewController {
         print(#function)
         let akhilaCollege = College()
         let subjects = akhilaCollege.subjectsOfDepartment(branch: .cse)
-        print(subjects)
+       let errorHand = ErrorHandler()
+        let error = errorHand.networkType(networkIssue: .systemError)
+        errorDescriptionLabel.text = error.0
+        view.backgroundColor = error.1
+        
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
