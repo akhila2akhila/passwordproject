@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         let akhilaCollege = College()
         let subjects = akhilaCollege.subjectsOfDepartment(branch: .cse)
        let errorHand = ErrorHandler()
-        let error = errorHand.networkType(networkIssue: .systemError)
+        let error = errorHand.networkType(networkIssue: .paymentError)
         errorDescriptionLabel.text = error.0
         view.backgroundColor = error.1
         

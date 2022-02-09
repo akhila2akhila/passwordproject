@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		705E020527A2F25D0025E6A9 /* passwordprotectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E020427A2F25D0025E6A9 /* passwordprotectorUITestsLaunchTests.swift */; };
 		7099C37327AD66D400840267 /* Controlstatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C37227AD66D400840267 /* Controlstatements.swift */; };
 		7099C37527B15E5D00840267 /* climate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C37427B15E5D00840267 /* climate.swift */; };
+		7099C37727B3FE2300840267 /* salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C37627B3FE2300840267 /* salary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		705E020427A2F25D0025E6A9 /* passwordprotectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordprotectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7099C37227AD66D400840267 /* Controlstatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controlstatements.swift; sourceTree = "<group>"; };
 		7099C37427B15E5D00840267 /* climate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climate.swift; sourceTree = "<group>"; };
+		7099C37627B3FE2300840267 /* salary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				705E01E527A2F2580025E6A9 /* ViewController.swift */,
 				7099C37227AD66D400840267 /* Controlstatements.swift */,
 				7099C37427B15E5D00840267 /* climate.swift */,
+				7099C37627B3FE2300840267 /* salary.swift */,
 				705E01E727A2F2580025E6A9 /* Main.storyboard */,
 				705E01EA27A2F25C0025E6A9 /* Assets.xcassets */,
 				705E01EC27A2F25C0025E6A9 /* LaunchScreen.storyboard */,
@@ -213,7 +216,7 @@
 				};
 			};
 			buildConfigurationList = 705E01D927A2F2580025E6A9 /* Build configuration list for PBXProject "passwordprotector" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -269,6 +272,7 @@
 				705E01E427A2F2580025E6A9 /* SceneDelegate.swift in Sources */,
 				7099C37327AD66D400840267 /* Controlstatements.swift in Sources */,
 				7099C37527B15E5D00840267 /* climate.swift in Sources */,
+				7099C37727B3FE2300840267 /* salary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
